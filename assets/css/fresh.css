@@ -313,7 +313,7 @@
 .img1{
   width: 430px;
   height: 300px;
-  background-color:  green;
+  background-color: white;
   background-image: url(../images/ajoke.jpg);
   background-size: cover;
   background-position: center;
@@ -335,7 +335,7 @@
 .img2{
   width: 430px;
   height: 300px;
-  background-color:  firebrick;
+  background-color:  white;
   background-image: url(../images/emeka.jpg);
   background-size: cover;
   background-position: center;
@@ -356,7 +356,7 @@
 .img3{
   width: 430px;
   height: 300px;
-  background-color:  orangered;
+  background-color:  white;
   background-image: url(../images/iyin.jpg);
   background-size: cover;
   background-position: center;
@@ -383,7 +383,7 @@
 .img4{
   width: 430px;
   height: 300px;
-  background-color:  green;
+  background-color:  white;
   background-image: url(../images/fatai.jpg);
   background-size: cover;
   background-position: center;
@@ -405,7 +405,7 @@
 .img5{
   width: 430px;
   height: 300px;
-  background-color:  firebrick;
+  background-color:  white;
   background-image: url(../images/ekharo.jpg);
   background-size: cover;
   background-position: center;
@@ -426,7 +426,7 @@
 .img6{
   width: 430px;
   height: 300px;
-  background-color:  orangered;
+  background-color:  white;
   background-image: url(../images/tope.jpg);
   background-size: cover;
   background-position: center;
