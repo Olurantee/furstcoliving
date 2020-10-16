@@ -799,7 +799,7 @@ ul li{
   .context{
     text-align: center;
     margin-left: 47px;
-    margin-top: 150px;
+    margin-top: 250px;
     font-family: MTN;
   }
   
@@ -831,12 +831,14 @@ ul li{
     padding-top: 20px;
   }
 
-  .btns{
+  #mybtnz{
     margin-top: 35px;
+    display: flex;
+    flex-direction: row;
   }
 
-  .btn1 {
-    padding: 10px 20px;
+  #mybtnz1 {
+    padding: 5px 10px;
     border: 0;
     border-radius: 5px;
     background: black;
@@ -863,10 +865,267 @@ ul li{
     cursor: pointer;
     color: white;
     margin-top: 60px;
-    margin-left: 250px;
+    margin-left: 320px;
+    }
+
+    .slidewrapper{
+      margin-top: 60px;
+      display: flex;
+      flex-direction: row;
     }
     
+    .slide1{
+      height: 450px;
+      width: 370px;
+      background-color: #DC0B0B;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      color: white;
+      /* margin-left: 10px; */
+    }
+    .img1{
+      width: 370px;
+      height: 300px;
+      background-color:  green;
+      background-image: url(../images/ajoke.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px 20px 0px 0px;
+    
+    }
+    
+    
+    
+    .slide2{
+      height: 450px;
+      width: 370px;
+      background-color: #DC0B0B;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 28px;
+      color: white;
+    }
+    .img2{
+      width: 370px;
+      height: 300px;
+      background-color:  firebrick;
+      background-image: url(../images/emeka.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px 20px 0px 0px;
+    
+    }
+    
+    
+    .slide3{
+      display: none;
+    }
+    .img3{
+     display: none;
+    
+    }
+    
+    
+    .slidewrapper2{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .slide4{
+      height: 450px;
+      width: 370px;
+      background-color: #DC0B0B;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      color: white;
+      /* margin-left: 10px; */
+    }
+    .img4{
+      width: 370px;
+      height: 300px;
+      background-color:  green;
+      background-image: url(../images/fatai.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px 20px 0px 0px;
+    
+    }
+    
+    
+    
+    .slide5{
+      height: 450px;
+      width: 370px;
+      background-color: #DC0B0B;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 28px;
+      color: white;
+    }
+    .img5{
+      width: 370px;
+      height: 300px;
+      background-color:  firebrick;
+      background-image: url(../images/ekharo.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px 20px 0px 0px;
+    
+    }
+    
+    
+    .slide6{
+     
+      display: none;
+    }
+    .img6{
+      display: none;
+    
+    }
+
+    .contain3{
+      margin-top: 120px;
+      font-family: MTN;
+      background-image: url(../images/cover.png);
+      background-size: cover;
+      background-position: center;
+    }
+    .contain3 h3{
+      text-align: center;
+      font-family: MTN;
+      font-size: 30px;
+      color: black;
+    }
+    
+    
+    .featurewrapper{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .feature1{
+      height: 335px;
+      width: 250px;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
       
+    }
+    
+    .head1{
+      border-bottom: thin #DC0B0B solid;
+      padding: 22.85px 0;
+      display: flex;
+      align-items: center;
+      font-family: MTN; 
+      font-size: 14px; 
+      padding: 10px; 
+      padding-top: 50px; 
+      line-height: 1.22;
+      color: #DC0B0B;
+    }
+
+    
+    .feature2{
+      height: 335px;
+      width: 250px;
+      background-color:white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 15px;
+    }
+    
+    .feature3{
+      height: 335px;
+      width: 250px;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 15px;
+    }
+    
+    .feature4{
+      height: 335px;
+      width: 250px;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 15px;
+    }
+    .feature5{
+      height: 335px;
+      width: 250px;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 15px;
+    }
+
+    .textbox1{
+      height: 500px;
+      width: 700px;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      /* margin-left: 28px; */
+      color: black;
+      padding: 20px;
+    }
+    .imgbox1{
+      width: 700px;
+      height: 500px;
+      background-color:  firebrick;
+      background-image: url(../images/imgbox1.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px;
+    
+    }
+
+    .textbox2{
+      height: 500px;
+      width: 700px;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      /* margin-left: 28px; */
+      color: black;
+      padding: 10px;
+    }
+    .imgbox1{
+      width: 700px;
+      height: 500px;
+      background-color:  firebrick;
+      background-image: url(../images/imgbox1.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px;
+    
+    }
+    
+    .divwrap2{
+      margin-top: 150px;
+      display: flex;
+      flex-direction: row;
+    } 
+
+    .divwrap3{
+      margin-top: 150px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .section9{
+      width: 100%;
+      margin-top: 220px;
+      background-color: black;
+      background-image: url(../images/cover.png);
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
       
   }
 
