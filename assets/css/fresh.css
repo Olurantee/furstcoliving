@@ -743,7 +743,7 @@ ul li{
     -ms-flex-direction: column;
     flex-direction: column;
     background: #ffffff;
-    width: 85%;
+    width: 100%;
     height: 100%;
     overflow: auto;
     -webkit-transition: left .3s;
