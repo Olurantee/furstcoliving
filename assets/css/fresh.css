@@ -137,7 +137,7 @@
 
 .hero{
   height:100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.76)), url('../images/herobg.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.76)), url('../images/herobgg.jpg');
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
@@ -164,7 +164,7 @@
 }
 
 
-.btn {
+.topbtn {
   padding: 30px 70px;
   border: 0;
   border-radius: 15px;
@@ -206,8 +206,10 @@
   .box1{
     background-color: #DC0B0B;
     height: 500px;
-    width: 900px;
-    clip-path: polygon(0 0, 61% 0, 98% 100%, 0% 100%);
+    width: 750px;
+    border-bottom: 100px solid white;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
     padding: 60px;
     font-weight: lighter;
     color: white;
@@ -272,8 +274,6 @@
   background-image:  url('../images/herobg.jpg');
   background-position: center;
   background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
-  /* border: solid black; */
   overflow-x: hidden;
 }
 
@@ -622,7 +622,7 @@
 .section9{
   width: 100%;
   margin-top: 90px;
-  background-color: black;
+  background-color: #DC0B0B;
   background-image: url(../images/cover.png);
   background-size: cover;
   background-position: center;
@@ -654,7 +654,7 @@ ul li{
 }
  ul li a{
   text-decoration: none;
-  color: #DC0B0B;
+  color: black;
  }
  ul li a:hover{
    color: white;
@@ -743,7 +743,7 @@ ul li{
     -ms-flex-direction: column;
     flex-direction: column;
     background: #ffffff;
-    width: 100%;
+    width: 85%;
     height: 100%;
     overflow: auto;
     -webkit-transition: left .3s;
@@ -786,7 +786,7 @@ ul li{
   }
   .hero{
     height:100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.76)), url('../images/herobg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.76)), url('../images/herobgg.jpg');
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -854,7 +854,7 @@ ul li{
     }
   
   
-  .btn {
+  .topbtn {
     padding: 10px 30px;
     border: 0;
     border-radius: 15px;
@@ -1133,10 +1133,11 @@ ul li{
   @media(max-width:650px){
     body{
         overflow-x: hidden;
+      
     }
     .hero{
       height:100vh;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.76)), url('../images/herobg.jpg');
+      background-image: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.76)), url('../images/herobgg.jpg');
       background-position: center;
       background-size: cover;
       overflow-x: hidden;
@@ -1148,22 +1149,22 @@ ul li{
     
     .context{
       text-align: center;
-      margin-left: 47px;
-      margin-top: 150px;
+      margin-left: 20px;
+      margin-top: 180px;
       font-family: MTN;
     }
     
     .context h1{
-      font-size: 30px;
+      font-size: 25px;
       color: white;
     }
     .context p{
-      font-size: 20px;
+      font-size: 16px;
       color: rgb(90, 90, 90);
     }
     
     
-    .btn {
+    .topbtn {
       padding: 10px 30px;
       border: 0;
       border-radius: 15px;
@@ -1174,7 +1175,7 @@ ul li{
       cursor: pointer;
       color: white;
       margin-top: 60px;
-      margin-left: 150px;
+      margin-left: 95px;
       }
 
 
@@ -1186,7 +1187,7 @@ ul li{
         padding: 20px;
         font-weight: lighter;
         color: black;
-        margin-left: 20px;
+        margin-left: 0px;
         /* border: solid blue; */
       }
     
@@ -1199,6 +1200,20 @@ ul li{
         line-height: 0.2m;
         padding-top: 20px;
       }
+
+      .btn2 {
+        padding: 10px 20px;
+        border: 0;
+        border-radius: 5px;
+        background: black;
+        font-family: MTN;
+        font-size: 14px;
+        font-weight: normal;
+        cursor: pointer;
+        color: white;
+        margin-left: 10px;
+        margin-top: 20px;
+        }
     
       #mybtnz{
         margin-top: 35px;
@@ -1216,6 +1231,7 @@ ul li{
         font-weight: normal;
         cursor: pointer;
         color: white;
+        margin-top: 15px;
         }
     
         .box2{
@@ -1245,15 +1261,15 @@ ul li{
         
         .slide1{
           height: 450px;
-          width: 370px;
+          width: 340px;
           background-color: #DC0B0B;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
           color: white;
-          margin-left: 50px;
+          margin-left: 16px;
         }
         .img1{
-          width: 370px;
+          width: 340px;
           height: 300px;
           background-color:  green;
           background-image: url(../images/ajoke.jpg);
@@ -1267,16 +1283,16 @@ ul li{
         
         .slide2{
           height: 450px;
-          width: 370px;
+          width: 340px;
           background-color: #DC0B0B;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 50px;
+          margin-left: 16px;
           margin-top: 30px;
           color: white;
         }
         .img2{
-          width: 370px;
+          width: 340px;
           height: 300px;
           background-color:  firebrick;
           background-image: url(../images/emeka.jpg);
@@ -1290,17 +1306,17 @@ ul li{
         .slide3{
           display: block;
           height: 450px;
-          width: 370px;
+          width: 340px;
           background-color: #DC0B0B;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 50px;
+          margin-left: 16px;
           margin-top: 30px;
           color: white;
         }
         .img3{
           display: block;
-          width: 370px;
+          width: 340px;
         
         
         }
@@ -1314,15 +1330,15 @@ ul li{
         
         .slide4{
           height: 450px;
-          width: 370px;
+          width: 340px;
           background-color: #DC0B0B;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
           color: white;
-          margin-left: 50px;
+          margin-left: 16px;
         }
         .img4{
-          width: 370px;
+          width: 340px;
           height: 300px;
           background-color:  green;
           background-image: url(../images/fatai.jpg);
@@ -1336,16 +1352,16 @@ ul li{
         
         .slide5{
           height: 450px;
-          width: 370px;
+          width: 340px;
           background-color: #DC0B0B;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 50px;
+          margin-left: 16px;
           margin-top: 30px;
           color: white;
         }
         .img5{
-          width: 370px;
+          width: 340px;
           height: 300px;
           background-color:  firebrick;
           background-image: url(../images/ekharo.jpg);
@@ -1359,13 +1375,13 @@ ul li{
         .slide6{
          
           display: block;
-          width: 370px;
-          margin-left: 50px;
+          width: 340px;
+          margin-left: 16px;
           margin-top: 30px;
         }
         .img6{
           display: block;
-          width: 370px;
+          width: 340px;
         
         }
     
@@ -1396,7 +1412,7 @@ ul li{
           background-color: white;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 110px;
+          margin-left: 60px;
           
         }
         
@@ -1420,7 +1436,7 @@ ul li{
           background-color:white;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 110px;
+          margin-left: 60px;
           margin-top: 30px;
         }
         
@@ -1430,7 +1446,7 @@ ul li{
           background-color: white;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 110px;
+          margin-left: 60px;
           margin-top: 30px;
         }
         
@@ -1440,7 +1456,7 @@ ul li{
           background-color: white;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 110px;
+          margin-left: 60px;
           margin-top: 30px;
         }
         .feature5{
@@ -1449,7 +1465,7 @@ ul li{
           background-color: white;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
-          margin-left: 110px;
+          margin-left: 60px;
           margin-top: 30px;
         }
          .divwrap1{
@@ -1458,24 +1474,24 @@ ul li{
          }
         .textbox1{
           height: 430px;
-          width: 400px;
+          width: 340px;
           background-color: white;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
           /* margin-left: 28px; */
           color: black;
           padding: 0px;
-          margin-left: 40px;
+          margin-left: 17px;
         }
         .imgbox1{
-          width: 400px;
+          width: 340px;
           height: 400px;
           background-color:  firebrick;
           background-image: url(../images/imgbox1.jpg);
           background-size: cover;
           background-position: center;
           border-radius: 20px;
-          margin-left: 40px;
+          margin-left: 17px;
         
         }
     
@@ -1485,24 +1501,24 @@ ul li{
         }
         .textbox2{
           height: 400px;
-          width: 400px;
+          width: 340px;
           background-color: white;
           box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
           border-radius: 20px;
           /* margin-left: 28px; */
           color: black;
           padding: 10px;
-          margin-left: 40px;
+          margin-left: 17px;
         }
         .imgbox2{
-          width: 400px;
+          width: 340px;
           height: 400px;
           background-color:  firebrick;
           background-image: url(../images/imgbox2.jpg);
           background-size: cover;
           background-position: center;
           border-radius: 20px;
-          margin-left: 40px;
+          margin-left: 17px;
         
         }
         
@@ -1514,34 +1530,59 @@ ul li{
         }
 
         .imgbox3{
-          width: 400px;
+          width: 340px;
           height: 400px;
-          margin-left: 40px;
+          margin-left: 17px;
         }
 
         .textbox3{
-          width: 400px;
+          width: 340px;
           height: 400px;
           padding: 10px;
-          margin-left: 40px;
+          margin-left: 17px;
 
         }
     
         .section9{
           width: 100%;
           margin-top: 220px;
-          background-color: black;
+          background-color:#DC0B0B;
           background-image: url(../images/cover.png);
           background-size: cover;
           background-position: center;
           color: white;
+          padding: 10px;
         }
         .container .navbar ul li a {
-          padding: 5px;
+          padding: 10px;
           font-size: 10px;
           height: auto;
           line-height: normal;
           color: #555555;
+        }
+        .section9content{
+          display: flex;
+          flex-direction: row;
+          font-family: MTN;
+          padding-top: 30px;
+          font-size: 12px;
+        
+          
+        }
+        
+        .section9div{
+          display: block;
+          width: 170px;
+          margin: auto;
+        
+        }
+        
+        ul li{
+          padding-top: 20px;
+          list-style: none;
+          
+          
+          
         }
     
     
